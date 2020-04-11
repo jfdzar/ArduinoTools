@@ -88,6 +88,15 @@ void loop()
 {
   // your program here…
   Serial.println("Starting Loop");
+  
+  /*
+  while(1){
+    increase_counter = increase_counter + 100;
+    set_timer1(increase_counter); //8 KHz
+    _delay_ms(1000);
+
+  }*/
+
   digitalWrite(ledPin,HIGH);
   _delay_ms(1000);
   digitalWrite(ledPin,LOW);
